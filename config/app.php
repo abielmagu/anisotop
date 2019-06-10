@@ -1,7 +1,7 @@
 <?php 
 
 return [
-    'name' => 'Potosina app',
+    'name' => 'Bx app',
     'lang' => 'es',
     'shutdown' => false 
 ];
