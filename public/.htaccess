@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>    
+    RewriteEngine On
+
+    Options -Indexes
+    Options +FollowSymLinks
+
+    #RewriteBase /mvc/
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+    #RewriteRule ^index\.php/([a-zA-Z0-9_-]+)/method/param$ /index.php?url=$1 [QSA,L]
+
+</IfModule>
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^app\.lapotosinaexpress\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.app\.lapotosinaexpress\.com$
+RewriteRule ^/?$ "https\:\/\/app\.lapotosinaexpress\.com\/" [R=301,L]
