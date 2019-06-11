@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+* {
+	font-family: 'Anton', 'Impact';
+}
+.bg-yellow {
+	background-color: #FEBA01;
+}
+.bg-light-yellow {
+	background-color: #FAF2E0;
+}
+.bg-brown {
+	background-color: #9A7C55;
+}
+.bg-dark-brown {
+	background-color: #5D4C34;
+}
+.text-yellow {
+	color: #FEBA01;
+}
+.text-brown {
+	color: #9A7C55;
+}
+.text-arial {
+	font-family: 'Arial' !important;
+	font-size: 1rem;
+}
