@@ -1,0 +1,73 @@
+[
+{"type":"header","version":"4.8.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"lapotosi_app"},
+{"type":"table","name":"clientes","database":"lapotosi_app","data":
+[
+
+]
+}
+,{"type":"table","name":"codigos_reempacado","database":"lapotosi_app","data":
+[
+
+]
+}
+,{"type":"table","name":"conductores","database":"lapotosi_app","data":
+[
+
+]
+}
+,{"type":"table","name":"consolidados","database":"lapotosi_app","data":
+[
+
+]
+}
+,{"type":"table","name":"entradas","database":"lapotosi_app","data":
+[
+
+]
+}
+,{"type":"table","name":"entrada_destinatario","database":"lapotosi_app","data":
+[
+
+]
+}
+,{"type":"table","name":"entrada_medidas","database":"lapotosi_app","data":
+[
+
+]
+}
+,{"type":"table","name":"entrada_remitente","database":"lapotosi_app","data":
+[
+
+]
+}
+,{"type":"table","name":"reempacadores","database":"lapotosi_app","data":
+[
+
+]
+}
+,{"type":"table","name":"salidas","database":"lapotosi_app","data":
+[
+
+]
+}
+,{"type":"table","name":"transportadoras","database":"lapotosi_app","data":
+[
+
+]
+}
+,{"type":"table","name":"usuarios","database":"lapotosi_app","data":
+[
+{"id":"1","nombre":"test-admin","email":"tadmin@mail.com","password":"$2y$10$DajY4RpEkU44d4A15Ktep.Aw3wJBmZF\/oWkOtoFVs7sOW9FE4V7zq","tipo":"administrador","created_at":"2019-03-30 19:51:13","updated_at":"2019-03-30 19:51:13"},
+{"id":"2","nombre":"test-doc","email":"tdoc@mail.com","password":"$2y$10$lbNFuCjQbRLJs7bDeUYBB.q2whJJ8JBBNpg9a0sbkpwWnlfGbXmJe","tipo":"documentador","created_at":"2019-03-30 22:14:00","updated_at":"2019-03-31 16:06:05"},
+{"id":"4","nombre":"test-busa","email":"tbusa@mail.com","password":"$2y$10$wvxuUJpXhgSVGvw6ZGoEUuGxxYkVTuA6xzeYezunjMqJ0oFg5q0\/G","tipo":"bodega_usa","created_at":"2019-03-31 12:53:00","updated_at":"2019-03-31 12:53:00"},
+{"id":"5","nombre":"test-bmex","email":"tbmex@mail.com","password":"$2y$10$kv7ODkV1uyfca1tInMFGGOf\/wB7YYx8.mLyP4uos7Hrp4VaATZFKG","tipo":"bodega_mex","created_at":"2019-03-31 12:56:46","updated_at":"2019-04-08 05:18:39"},
+{"id":"7","nombre":"Chocomil","email":"chocolaton@mail.com","password":"$2y$10$ZsOtocuTSt7PeC5FbrHXOOiT8JPhS1PthmOTIrsLJLKbw8tDp2o7K","tipo":"cliente","created_at":"2019-03-31 13:03:03","updated_at":"2019-03-31 16:21:46"}
+]
+}
+,{"type":"table","name":"vehiculos","database":"lapotosi_app","data":
+[
+
+]
+}
+]
